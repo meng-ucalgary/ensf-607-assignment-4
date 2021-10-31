@@ -1,4 +1,4 @@
-public class SimpleThread extends Thread {
+public class SimpleThread implements Runnable {
     Resource resource;
 
     public void run() {
@@ -19,9 +19,10 @@ public class SimpleThread extends Thread {
     }
 
     public static void main(String args[]) {
-        Resource resource = new Resource();
-        Thread t = new SimpleThread(resource);
-        Thread s = new SimpleThread(resource);
+        SimpleThread obj = new SimpleThread(new Resource());
+
+        Thread t = new Thread(obj);
+        Thread s = new Thread(obj);
 
         t.start();
         s.start();
