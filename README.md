@@ -26,3 +26,8 @@ Submission before 11:59 PM on Monday, November 1
 + For exercise 2, there are three different scripts - `task_1.(cmd|sh)`, `task_2.(cmd|sh)`, and `task_3.(cmd|sh)` - to run each individual task of this exercise.
 
 + For exercise 5, launch the server by running `run_server.cmd` or `run_server.sh`. To launch individual clients, run the file `run_client.cmd` or `run_client.sh` atleast two times in different terminals.
+
+
+## Exercise 5 Screenshot
+
+![snip](Exercise_5/screenshots/glimpse.png)
